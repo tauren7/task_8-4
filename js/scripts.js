@@ -1,10 +1,10 @@
-var name = prompt('Wpisz swoje imię'); // komentarz na końcu linii 
-//alert('Witaj, ' + name);
-console.log('Witaj, ' + name);
-
-
-/*
-
-Komentarz wieloliniowy !!!
-
-*/
+var a = prompt("Wpisz cyfrę od 0 do 9");
+var h = prompt("Wpisz kolejną cyfrę od 0 do 9");
+var triangleArea = a * h / 2;
+alert('A (podstawa) = ' + a + '     H (wysokość) = ' + h);
+alert('Jakie będzie pole trójkąta ? gdzie A =' + a + ' i H = ' + h);
+var cyfry = prompt("Podaj Twój wynik poniżej ");
+alert('Pole trójkąta o podstawie A: ' + a + ' i wysokości H: ' + h + ' wynosi: ' + triangleArea);
+console.log('Pole trójkąta o podstawie a: ' + a + ' i wysokości h: ' + h + ' wynosi: ' + triangleArea);
+var wynik = prompt("Czy Twój wynik był poprawny ? TAK lub NIE");
+alert(wynik);
